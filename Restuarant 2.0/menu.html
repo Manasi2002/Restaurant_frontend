@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <style>
+        body{
+            background-color:rgb(8, 51, 71);
+        }
+        .container-fluid{
+            padding:1% 15% 0% 5%;
+        }
+        .bts{
+            background-color:rgb(8, 51, 71);
+            color:burlywood;
+            padding:0.5% 0.5% 0.5% 0.5%;
+            margin: 1% 4% 1% 4%;
+            border:1px solid burlywood;
+            border-radius: 5px;                        
+        }
+        .bts:hover{
+            background-color:burlywood;
+            color:rgb(8, 51, 71);
+        }
+        .bts2{
+            background-color:rgb(8, 51, 71);
+            color:burlywood;
+            padding:0.5% 0.5% 0.5% 0.5%;
+            margin: 1% 4% 1% 4%;
+            border:1px solid burlywood;
+            border-radius: 5px; 
+        }
+        .bts2:hover{
+            background-color:burlywood;
+            color:rgb(8, 51, 71);
+        }
+
+        .card {
+            width: 250px;
+            height: 350px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);            
+            margin: auto;
+            text-align: center;
+            font-size:25px;
+            background-color:rgb(8, 51, 71) ;
+        }
+        .card:hover{
+            color: rgb(8, 51, 71);
+            box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+            background-color:burlywood ;
+        }
+                
+        .price {
+             color: 1px solid burlywood;
+             font-size: 22px;
+             font-weight: lighter;
+        }
+        .btn{
+            background-color:rgb(8, 51, 71);
+            color:burlywood;
+            padding: 2% 25% 2% 25%;
+            border:1px solid burlywood;
+            font-size:80%;
+        }
+        .btn:hover{
+            font-size:80%;
+            color:burlywood;
+            padding:2% 25% 2% 25%;
+            border:1px solid rgb(8, 51, 71);
+        }
+       
+        
+        .title{
+            margin:5% 0% 0% 0%;
+        }
+        img{
+            width:100%;
+            height: 55%;
+        }
+        #b{
+            padding:1% 3% 1% 3%;
+        }
+       
+    </style>
+
+
+</head>
+
+
+<body>
+    <div class="container-fluid text-center h1" style="font-family: Brush Script MT, cursive; color:burlywood">
+        MENU
+    </div>
+    <div class="container">
+        <div class="row">
+            <button class="col-md-2 bts">
+                 Starters
+            </button>
+            <button class="col-md-2 bts">
+                Curries
+            </button>
+            <button class="col-md-2 bts">
+                Rice Items
+            </button>
+            <button class="col-md-2 bts">
+                Deserts
+            </button>           
+        </div>
+        <div class="row">
+            <button class="col-md-3 bts2">
+                Deserts
+            </button>
+            <button class="col-md-3 bts2">
+                Drinks
+            </button>
+            <button class="col-md-3 bts2">
+                Drinks
+            </button>           
+        </div>        
+    </div>
+
+    <div class="container h1" id="a" style="color:burlywood">
+        <p style="font-family: Brush Script MT, cursive; color:burlywood">Special Offers <i class="fas fa-bullhorn"></i></p>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4" id="b">
+                    <div class="card">
+                        <img src="https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png">
+                        <h4 class="title" style="font-weight: lighter;">Veg Rice items + 3Starters+Soup+Juice</h4>
+                        <p class="price">$19.99</p>
+                        <p><button class="btn">Add to Cart</button></p>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-4" id="b">
+                    <div class="card">
+                        <img src="public\assets\Mutton Burger+French Fries+Coke.jpg">
+                        <h4 class="title" style="font-weight: lighter;">Mutton Burger+ French Fries + Coke</h4>
+                        <p class="price">$20-$16.5</p>
+                        <p><button class="btn">Add to Cart</button></p>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-4" id="b">
+                    <div class="card">
+                        <img src="publi\assets\Veg Noodles+Meat Balls.jpg">
+                        <h4 class="title" style="font-weight: lighter;">Veg Noodles + Meat Balls</h4>
+                        <p class="price">$15.99</p>
+                        <p><button class="btn">Add to Cart</button></p>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>                  
+            </div>
+        </div>
+    </div>
+
+    <div class="container h1" id="a" style="color:burlywood">
+        <p style="font-family: Brush Script MT, cursive; color:burlywood">Trending:-</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4" id="b">
+                    <div class="card">
+                        <img src="https://simmertoslimmer.com/wp-content/uploads/2018/01/South-Indian-chicken-biryani.jpg">
+                        <h4 class="title" style="font-weight: lighter;">Chicken Biriyani</h4>
+                        <p class="price">$19.99</p>
+                        <p><button class="btn">Add to Cart</button></p>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-4" id="b">
+                    <div class="card">
+                        <img src="https://ministryofcurry.com/wp-content/uploads/2019/11/egg-biryani-3-1.jpg">
+                        <h4 class="title" style="font-weight: lighter;">Egg Biriyani</h4>
+                        <p class="price">$16.99</p>
+                        <p><button class="btn">Add to Cart</button></p>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-4" id="b">
+                    <div class="card" >
+                        <img src="https://navbharattimes.indiatimes.com/photo/msid-81662918,imgsize-173551/pic.jpg">
+                        <h4 class="title" style="font-weight: lighter;">Veg Biriyani</h4>
+                        <p class="price">$15.99</p>
+                        <p><button class="btn">Add to Cart</button></p>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>                  
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
