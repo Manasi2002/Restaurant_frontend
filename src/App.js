@@ -13,7 +13,7 @@ import Drinks from "./components/Drinks";
 import RiceItems from "./components/RiceItems";
 import Tandooris from "./components/Tandooris";
 import FastFoods from "./components/FastFoods";
-import Error from "./components/Error";
+// import Error from "./components/Error";
 import { CartProvider } from "react-use-cart";
 import { BrowserRouter , Route , Switch } from "react-router-dom";
 
@@ -57,7 +57,9 @@ function App() {
               <Route exact path="/cart">
                 <Cart1 />
               </Route>
-              
+              {/* <Route>
+                <Error />
+              </Route> */}
               </CartProvider>
           </Switch>         
     </BrowserRouter>

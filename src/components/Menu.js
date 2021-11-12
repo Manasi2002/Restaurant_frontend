@@ -14,15 +14,15 @@ function Menu() {
         },
         {
             id: "58",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
-            title: "Veg Rice items + 3Starters",
+            imageUrl: "assets/Mutton Burger+French Fries+Coke.jpg",
+            title: "Burger+French fries+coke",
             oprice: 19.99,
             price: 15,
         },
         {
             id: "59",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
-            title: "Veg Rice items + 3Starters",
+            imageUrl: "assets/Veg Noodles+Meat Balls.jpg",
+            title: "Veg Noodles+Meat Balls",
             oprice: 19.99,
             price: 15,
         },
@@ -30,20 +30,20 @@ function Menu() {
     const tr = [
         {
             id: "60",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
-            title: "Veg Rice items + 3Starters",
+            imageUrl: "assets/Shrimp Biryani.jpg",
+            title: "Shrimp Biriyani",
             price: 19.99,
         },
         {
             id: "61",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
-            title: "Veg Rice items + 3Starters",
+            imageUrl: "assets/chicken lollipop.jpg",
+            title: "Chicken Lollipop",
             price: 19.99,
         },
         {
             id: "62",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
-            title: "Veg Rice items + 3Starters",
+            imageUrl: "assets/Paneer-Tikka-Tawa.jpg",
+            title: "Panner Tikka",
             price: 19.99,
         },
     ];

@@ -6,9 +6,9 @@ function Body()
         <div id="bg">
         <div className="container text-center" id="bod">
         <div className="row text-center text-align:center">     
-            <div className="col-12 text-light">
+            <div className="col-12 text-light cont_body">
                 <span className="box" id="abc">Eat fresh and delicious</span>
-                <p className="text-weight-light text-light" style={{fontSize: "140%",}}>One of the best tastes at best location </p> 
+                <p className="text-weight-light text-light" id="body-p" style={{fontSize: "140%",}}>One of the best tastes at best location </p> 
                 <button id="buttonn">BOOK A TABLE</button>             
             </div>
         </div>

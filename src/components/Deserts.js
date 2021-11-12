@@ -6,28 +6,28 @@ function Deserts()
     const di =[
         {
             id: "41",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
+            imageUrl: "assets/Butter-scotch-ice-cream.jpg",
             title: "ButterScotch " ,
             price: 19.99,
             cart: "Add to Cart",
         },
         {
             id: "42",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
+            imageUrl: "assets/Chocolate ice cream.jpg",
             title: "Chocolate ",
             price: 19.99,
             cart: "Add to Cart",
         },
         {
             id: "43",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
+            imageUrl: "assets/Vannila Ice cream.jpg",
             title: "Vannila ",
             price: 19.99,
             cart: "Add to Cart",
         },
         {
             id: "44",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
+            imageUrl: "assets/Strawberry Ice cream (1).jpg",
             title: "Strawberry ",
             price: 19.99,
             cart: "Add to Cart",
@@ -36,28 +36,28 @@ function Deserts()
     const dc =[
         {
             id: "45",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
+            imageUrl: "assets/blue berry cake.jpg",
             title: "Blue Berry " ,
             price: 19.99,
             cart: "Add to Cart",
         },
         {
             id: "46",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
-            title: "Chocolate ",
+            imageUrl: "assets/Chocolate Cake.jpg",
+            title: "Chocolate",
             price: 19.99,
             cart: "Add to Cart",
         },
         {
             id: "47",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
-            title: "REd Velvet ",
+            imageUrl: "assets/Red velvet.jpg",
+            title: "Red Velvet ",
             price: 19.99,
             cart: "Add to Cart",
         },
         {
             id: "48",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
+            imageUrl: "assets/Mango cake.jpg",
             title: "Orange ",
             price: 19.99,
             cart: "Add to Cart",
@@ -66,7 +66,7 @@ function Deserts()
     return(
         <div id="stbody">
             <div className="container-fluid text-center h1" style={{fontFamily: "Brush Script MT, cursive", color: "burlywood"}} id="stcontainer">
-        REFRESHMENTS
+        DESERTS
     </div>
     <div className="container-fluid text-center h1" id="stcontainer">
         <div className="row">
