@@ -10,20 +10,46 @@
   background-color: rgb(8, 51, 71);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
+#nav-logo {
+  margin-top: -12px;
+  width: 30px;
+}
+.nav-heading {
+  margin-top: -30px;
+  margin-left: 60px;
+}
 #bod {
-  padding: 10.5% 10% 10.5% 13%;
+  height: 560px;
+  /* padding: 10.5% 10% 10.5% 13%; */
+}
+#body-p {
+  padding-top: 9px;
+}
+.cont_body {
+  margin-top: 190px;
+  /* background-color: red; */
 }
 .box {
+  position: relative;
   border: 1px solid white;
   font-family: Brush Script MT, cursive;
   display: inline-block;
+  font-size: 370%;
+  /* margin-top: 300px; */
+  /* margin-top: 50px;
+  width: 550px;
+  height: 100px; */
+  /* margin-top: 25px;
+  margin-bottom: 13px; */
+  padding: 1% 7% 1% 7%;
+  /* margin: 1%; */
 }
 
-#abc {
+/* #abc {
   font-size: 370%;
   padding: 1% 7% 1% 7%;
   margin: 1%;
-}
+} */
 
 #buttonn {
   background-color: #4c7aaf;
@@ -62,6 +88,7 @@
 .bts:hover {
   background-color: burlywood;
   color: rgb(8, 51, 71);
+  text-decoration: none;
 }
 .bts2 {
   background-color: rgb(8, 51, 71);
@@ -75,6 +102,7 @@
 .bts2:hover {
   background-color: burlywood;
   color: rgb(8, 51, 71);
+  text-decoration: none;
 }
 
 #menucard {
@@ -148,8 +176,9 @@
   padding: 2% 3% 1% 3%;
 }
 #footer {
+  /* position: absolute; */
   height: 85px;
-  background-color: black;
+  /* background-color: black; */
   bottom: 0px;
   left: 0px;
   right: 0px;
@@ -251,7 +280,12 @@
   font-family: Harry Potter;
   font-size: x-large;
 }
-
+/* @media only screen and (max-width: 480px) {
+  #harry {
+    overflow-x: auto;
+    display: block;
+  }
+} */
 #emptyCart {
   padding: 5% 0% 0% 0%;
   font-family: Brush Script MT, cursive;
@@ -264,4 +298,169 @@
 
 #errorimg {
   max-width: 100%;
+}
+
+/* Line Css */
+#cart_main {
+  display: inline-block;
+  /* font-size: 16px; */
+}
+
+#home_main {
+  display: inline-block;
+  /* font-size: 16px; */
+}
+
+#menu_main {
+  display: inline-block;
+  /* font-size: 16px; */
+}
+
+#previousorders_main {
+  display: inline-block;
+  /* font-size: 16px; */
+}
+
+#cart {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  /* padding: 10px; */
+  transition: color 0.5s;
+}
+#home {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  /* padding: 10px; */
+  transition: color 0.5s;
+}
+#menu {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  /* padding: 10px; */
+  transition: color 0.5s;
+}
+#previousorders {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  /* padding: 10px; */
+  transition: color 0.5s;
+}
+
+.underline {
+  height: 3px;
+  background-color: transparent;
+  width: 0%;
+  transition: width 0.2s, background-color 0.5s;
+  margin: 0 auto;
+  margin-top: 18px;
+  margin-bottom: -25px;
+}
+
+.active-link .underline {
+  width: 100%;
+  background-color: white;
+}
+
+#cart_main:hover .underline {
+  background-color: white;
+  width: 100%;
+}
+#menu_main:hover .underline {
+  background-color: white;
+  width: 100%;
+}
+#home_main:hover .underline {
+  background-color: white;
+  width: 100%;
+}
+#previousorders_main:hover .underline {
+  background-color: white;
+  width: 100%;
+}
+
+#cart_main:hover a {
+}
+#home_main:hover a {
+}
+#menu_main:hover a {
+}
+#previousorders_main:hover a {
+}
+
+#cart_main:active #cart {
+  transition: none;
+  color: rgba(255, 255, 255, 0.76);
+}
+#home_main:active #home {
+  transition: none;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+#menu_main:active #menu {
+  transition: none;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+#previousorders_main:active #previousorders {
+  transition: none;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+#cart_main:active .underline {
+  transition: none;
+  background-color: rgba(255, 255, 255, 0.76);
+}
+#menu_main:active .underline {
+  transition: none;
+  background-color: rgba(255, 255, 255, 0.76);
+}
+
+#home_main:active .underline {
+  transition: none;
+  background-color: rgba(255, 255, 255, 0.76);
+}
+
+#previousorders_main:active .underline {
+  transition: none;
+  background-color: rgba(255, 255, 255, 0.76);
+}
+
+/*   Moblie-view   */
+@media (max-width: 360px) {
+  #footer {
+    height: 96px;
+  }
+  #mail-fafa {
+    display: none;
+  }
+  #call-fafa {
+    display: none;
+  }
+  .box {
+    margin-top: 100px;
+  }
+  .cont_body {
+    margin-top: 10px;
+  }
+  #nav-logo {
+    margin-top: -8px;
+    width: 20px;
+  }
+  .nav-heading {
+    margin-top: -30px;
+  }
+  #kitty-prorder {
+    width: 300px;
+  }
+  .underline {
+    display: none;
+  }
+  #harry {
+    overflow-x: auto;
+    display: block;
+  }
 }

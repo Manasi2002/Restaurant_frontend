@@ -7,28 +7,28 @@ function Starters()
     const sv =[
         {
             id: "1",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
+            imageUrl: "assets/mushroom soup.jpg",
             title: "Mushroom Soup" ,
             price: 19.99,
             
         },
         {
             id: "2",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
+            imageUrl: "assets/veg-manchurian.jpg",
             title: "Veg Manchurian",
             price: 19.99,
             
         },
         {
             id: "3",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
+            imageUrl: "assets/panneeer 65.jpg",
             title: "Panneer 65",
             price: 19.99,
             
         },
         {
             id: "4",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
+            imageUrl: "assets/gobi 65.jpg",
             title: "Gobi 65",
             price: 19.99,
             
@@ -37,28 +37,28 @@ function Starters()
     const snv =[
         {
             id: "5",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
+            imageUrl: "assets/chicken lollipop.jpg",
             title: "Chicken Lollipop" ,
             price: 19.99,
             
         },
         {
             id: "6",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
-            title: "Fish Biriyani",
+            imageUrl: "assets/egg omlette.png",
+            title: "Egg Omlette",
             price: 19.99,
             
         },
         {
             id: "7",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
+            imageUrl: "assets/meat ball.jpg",
             title: "Meat Balls",
             price: 19.99,
             
         },
         {
             id: "8",
-            imageUrl: "https://storage.googleapis.com/zopsmart-uploads/originals/20181205/ChineseSpecialCombo-20181205-021543.png",
+            imageUrl: "assets/chilli fried prawns.jpg",
             title: "Chilli fried Prawns",
             price: 19.99,
             
